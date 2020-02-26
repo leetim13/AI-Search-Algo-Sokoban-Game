@@ -1,0 +1,14 @@
+/** WRITE YOUR TIPS IN THIS FILE **/
+
+Tip1: Avoid moving a box to any given corners (creating a "dead end"). 
+In other words, if we moved a box to a corner, there is no other way for us to
+re-use or re-move this box in further iterations (resulting in a fail).
+
+Tip2: Try to utilize the entire map area as much as possible. This helps us to
+spread out boxes, especially those boxes which we don't need to currently 
+move at the moment. Spreading out the boxes also means we have more choices of
+moving different boxes at any given state.
+
+Tip3: Avoid clustering of the robots. Since robots can not pass through robots
+themselves, clustering of the robots together in the same small area makes it
+more difficult to move the boxes (since robots might block each other's way). 
